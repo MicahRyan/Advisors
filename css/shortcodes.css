@@ -473,7 +473,7 @@ button.sc_button_size_large,
 }
 
 .sc_columns .sc_column_item_inner > .sc_section {padding: 1.3em;}
-.sc_columns .sc_column_item_inner > .sc_section a.sc_button {margin-top: 1.5em; margin-bottom: 0px; color: #209de2;}
+.sc_columns .sc_column_item_inner > .sc_section a.sc_button {margin-top: 1.5em; margin-bottom: 0px; color: #00853e;}
 .sc_columns .sc_column_item_inner > .sc_section .sc_title {margin-top: 0.7em; text-align: left; font-size: 1.429em;}
 
 /* Contact form
@@ -647,10 +647,10 @@ button.sc_button_size_large,
 	        transition: all ease .3s;
 }
 .sc_emailer_button {
-    background-color: #191e23;
+    background-color: #08A651;
 }
 .sc_emailer_button:hover {
-    background-color: #ce0315;
+    background-color: ##08A651;
     color: #fff;
 }
 input.sc_emailer_input {
@@ -741,7 +741,7 @@ a:hover .sc_icon.sc_icon_shape_square:after {
     transform: scale(1.8);
 }
 
-.sc_icon.style_2 {font-size: 3.6em; line-height: 1.2em; color: #209de2;}
+.sc_icon.style_2 {font-size: 3.6em; line-height: 1.2em; color: #00853e;}
 
 
 /* Image
@@ -1467,7 +1467,7 @@ ul.sc_list_style_iconed {
     font-weight: 400;
 }
 .sc_skills_pie_2 .sc_skills_info .sc_skills_label {
-    color: #191e23;
+    color: #08A651;
     /*font-weight: 600;*/
     line-height: 20px;
     min-height: 20px;
@@ -2463,7 +2463,7 @@ ul.sc_list_style_iconed {
     position: relative;
     display: inline-block;
     line-height: 1em;
-    color: #191e23;
+    color: #08A651;
 }
 .sc_tooltip_parent .sc_tooltip {
 	position: absolute;
