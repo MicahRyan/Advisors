@@ -305,7 +305,7 @@ body {
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: Spinnaker, serif;
-  color: #e8eee0;
+  color: #5b5f62;
 }
 h1 {
   font-size: 3.214em;
@@ -380,7 +380,7 @@ a, button {
   transition: all ease .3s;
 }
 a {
-  color: #797d82;
+  color: #CECECE;
 }
 a:hover {
   color: #08A651;
@@ -407,7 +407,7 @@ a:hover {
   color: #5b5f62;
 }
 .bg_tint_light h1, .bg_tint_light h2, .bg_tint_light h3, .bg_tint_light h4, .bg_tint_light h5, .bg_tint_light h6, .bg_tint_light h1 a, .bg_tint_light h2 a, .bg_tint_light h3 a, .bg_tint_light h4 a, .bg_tint_light h5 a, .bg_tint_light h6 a {
-  color: #e8eee0;
+  color: #00853e;
 }
 .content_wrap {
   /*overflow: hidden;*/
@@ -1835,7 +1835,7 @@ input:focus:-ms-input-placeholder {
   margin: 0 auto;
 }
 .body_style_boxed .page_wrap {
-  width: 1300px;
+  width: 100%;
   overflow: hidden;
 }
 header .content_wrap {
@@ -2268,6 +2268,7 @@ header .content_wrap {
   height: 100%;
   overflow: hidden;
   position: relative;
+	font-size: 1.3em;
 }
 .menu_user_wrap .menu_user_nav > li > a, .menu_main_wrap .menu_main_nav > li > a:hover {
 	color: #fff;
@@ -2285,7 +2286,7 @@ header .content_wrap {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
 }
 .menu_main_wrap .menu_main_nav li li > a {
-  color: #aeb1b3;
+  color: rgb(241, 241, 241);
 }
 .menu_main_wrap .menu_main_nav li li.current-menu-item > a {
   color: #fff;
@@ -2721,20 +2722,20 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
   margin-right: 5px;
 }
 .search_wrap.search_style_regular .search_form_wrap .search_submit, .search_wrap.search_style_regular .search_icon {
-  color: #aeb1b3;
+  color: #fff;
 }
 .top_panel_style_light .content .search_wrap.search_style_regular .search_form_wrap .search_submit, .top_panel_style_light .content .search_wrap.search_style_regular .search_icon {
-  color: #aeb1b3;
+  color: #fff;
 }
 .search_wrap.search_style_regular .search_form_wrap .search_submit:hover, .search_wrap.search_style_regular .search_icon:hover {
-  color: #aeb1b3;
+  color: #fff;
   background-color: transparent !important;
 }
 .top_panel_style_light .content .search_wrap.search_style_regular .search_form_wrap .search_submit:hover, .top_panel_style_light .content .search_wrap.search_style_regular .search_icon:hover {
-  color: #aeb1b3;
+  color: #fff;
 }
 .bg_tint_dark .search_wrap.search_style_regular .search_form_wrap .search_submit, .bg_tint_dark .search_wrap.search_style_regular .search_icon, .bg_tint_dark .search_wrap.search_style_regular .search_form_wrap .search_field {
-  color: #aeb1b3;
+  color: #fff;
 }
 .bg_tint_dark .search_wrap.search_style_regular .search_form_wrap .search_submit:hover, .bg_tint_dark .search_wrap.search_style_regular .search_icon:hover {
   color: #8e8b83 !important;
@@ -5702,7 +5703,7 @@ footer.testimonials_wrap .sc_section_overlay, footer.twitter_wrap .sc_section_ov
 }
 .scroll_to_top {
   color: #fff;
-  background-color: #e8eee0;
+  background-color: #00853e;
   border: none;
   -webkit-box-shadow: -4px 3px 0px 0px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: -4px 3px 0px 0px rgba(0, 0, 0, 0.2);
@@ -9152,7 +9153,7 @@ ul.sc_list_style_iconed {
   padding: 0;
 }
 .sc_team_item .sc_team_item_info .sc_team_item_title a {
-  color: #e8eee0;
+  color: #00853e;
   font-weight: 400;
 }
 .sc_team_style_1 .sc_team_item_info {
@@ -9866,16 +9867,16 @@ blockquote p {
 }
 .border_bottom_grey {
   padding: 0;
-  background-color: #f4f7fa;
+  background-color: #00853E;
   color: #aeb1b3;
 }
 .inline {
   display: inline-block;
   width: auto;
-  color: #aeb1b3;
+  color: #fff;
 }
 .inline a {
-  color: #aeb1b3;
+  color: #30AD6A;
 }
 .inline.bottom {
   padding: 1.2em 0;
@@ -9924,7 +9925,7 @@ blockquote p {
 }
 .marg_top {
   margin-top: 0.5em;
-  background-color: #f4f7fa;
+  background-color: #e8efe0;
   text-align: left;
 }
 .icon_user-top {
@@ -9971,6 +9972,7 @@ i.user_top_icon {
 }
 .font_086em {
   font-size: 0.866em;
+	color: #30AD6A;
 }
 .sc_dropcaps + .sc_dropcaps {
   margin-top: 4em;
@@ -9978,7 +9980,7 @@ i.user_top_icon {
 .bottom_cont {}
 .copyright_wrap {
   font-size: 1em;
-  background-color: #81bf37;
+  background-color: #00853E;
   color: rgba(255, 255, 255, 0.55);
 }
 .sc_socials a {

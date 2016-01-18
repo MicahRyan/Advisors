@@ -10,7 +10,7 @@
     }
 }
 /*
-Apple iPhone 5, 5S & 5C 
+Apple iPhone 5, 5S & 5C
 Apple iPod Touch (5th generation)
 */
 @media (min-width: 1136px) and (max-width: 1279px) {
@@ -18,7 +18,7 @@ Apple iPod Touch (5th generation)
     h2 { font-size:2.45em; }
 
 	/* Body sizes */
-	.body_style_boxed .page_wrap {		width:1050px; }
+	.body_style_boxed .page_wrap {		width:100%; }
 	.slider_boxed, .content_wrap, .content_container {	width:1000px; }
 
 	/* Content and Sidebar */
@@ -33,12 +33,12 @@ Apple iPod Touch (5th generation)
 	.body_style_fullwide.sidebar_right .sidebar, .body_style_fullscreen.sidebar_right .sidebar { margin-left: -250px; }
 	.body_style_fullwide.sidebar_left  .content, .body_style_fullscreen.sidebar_left  .content { padding-left:  300px; }
 	.body_style_fullwide.sidebar_left  .sidebar, .body_style_fullscreen.sidebar_left  .sidebar { margin-right:-250px; }
-	
+
 	/* Menu area */
 	.menu_main_wrap .search_wrap {
 		margin-top: 2em;
 	}
-	
+
 	/* Posts layouts */
 	.post_item_courses .post_category {
 		max-height:1.2em;
@@ -47,7 +47,7 @@ Apple iPod Touch (5th generation)
 	.post_item_courses .post_descr .post_price {
 		margin-top: 1.2em;
 	}
-	
+
 	/* Widgets */
 	.widget_area .sc_tabs.sc_tabs_style_2 .sc_tabs_titles li + li {
 		margin-left:0.4em;
@@ -102,13 +102,13 @@ Apple iPod Touch (4th generation)
     .sc_tabs.sc_tabs_style_2 .sc_tabs_titles { width: 6.7em;}
 
 	/* Body sizes */
-	.body_style_boxed .page_wrap {		width:900px; }
+	.body_style_boxed .page_wrap {		width:100%; }
 	.slider_boxed, .content_wrap, .content_container {	width:850px; }
 
 	/* Content and Sidebar */
 	.sidebar_show .content { width: 600px; }
 	.sidebar { 				 width: 220px; }
-	
+
 	/* Fullwide or Fullscreen with sidebar */
 	.body_style_fullwide.sidebar_right .content, .body_style_fullscreen.sidebar_right .content { padding-right: 250px; }
 	.body_style_fullwide.sidebar_right .sidebar, .body_style_fullscreen.sidebar_right .sidebar { margin-left: -220px; }
@@ -163,7 +163,7 @@ Apple iPod Touch (4th generation)
 		padding-right:30px;
 		padding-bottom:30px;
 	}
-	
+
 
 	/* Menu area */
 	.menu_right .menu_main_wrap.search_opened .menu_main_nav_area {
@@ -187,7 +187,7 @@ Apple iPod Touch (4th generation)
 		padding: 3em 0 1em 2.5em;
 	}
 
-	
+
 	/* Posts layouts */
 	.post_item_courses .post_category {
 		max-height:1.2em;
@@ -198,7 +198,7 @@ Apple iPod Touch (4th generation)
 	}
 	.isotope_filters a {
 		font-size:0.8461em;
-	}	
+	}
 
 	/* Post parts */
 	.post_info {
@@ -220,12 +220,12 @@ Apple iPod Touch (4th generation)
 	.post_item_courses .post_descr .post_price_value {
 		font-size:1.3846em;
 	}
-	
+
 	/* Footer */
 	.contacts_wrap .contacts_address {
 		font-size: 1em;
 	}
-	
+
 	/* Widgets */
 	.widget_area .post_item .post_info {
 		font-size:0.7692em;
@@ -236,7 +236,7 @@ Apple iPod Touch (4th generation)
 	.widget_area .widget_calendar .weekday {
 		font-size:0.8461em;
 	}
-	
+
 	/* Shortcodes */
 	.sc_testimonial_content {
 		font-size:1.25em;
@@ -262,7 +262,7 @@ Apple iPod Touch (4th generation)
 		/*padding:6px 3px;*/
 	}
 
-	
+
 	/* Woocommerce */
 	.woocommerce ul.products, .woocommerce-page ul.products {
 		margin-right:-30px;
@@ -308,13 +308,13 @@ Samsung Galaxy
     h6 { font-size:1em; }
 
 	/* Body sizes */
-	.body_style_boxed .page_wrap {		width:760px; }
+	.body_style_boxed .page_wrap {		width:100%; }
 	.slider_boxed, .content_wrap, .content_container {	width:720px; }
 
 	/* Content and Sidebar */
 	.sidebar_show .content { width: 100%; float: none; }
 	.sidebar { 				 width: 100%; float:none; }
-	
+
 	.article_style_boxed .sidebar {
 		margin-top:20px;
 	}
@@ -399,7 +399,7 @@ Samsung Galaxy
 	.gallery.gallery-columns-8 .gallery-item {	width: 20% !important; }
 	.gallery.gallery-columns-7 .gallery-item {	width: 20% !important; }
 	.gallery.gallery-columns-6 .gallery-item {	width: 20% !important; }
-	
+
 
 	/* Menu area */
 	.menu_right .menu_main_wrap.search_opened .menu_main_nav_area {
@@ -448,12 +448,12 @@ Samsung Galaxy
 	.post_item_courses .post_descr .post_price_value {
 		font-size:1.3846em;
 	}
-	
+
 	/* Footer */
 	.contacts_wrap .contacts_address {
 		font-size: 1em;
 	}
-	
+
 	/* Widgets */
 	.widget_area .post_item .post_info {
 		font-size:0.7692em;
@@ -467,7 +467,7 @@ Samsung Galaxy
 	.widget_area .reviews_block .reviews_summary .reviews_criteria {
 		font-size:0.7692em;
 	}
-	
+
 	/* Shortcodes */
 	input[type="submit"], input[type="button"], button, .sc_button {
 	}
@@ -489,7 +489,7 @@ Samsung Galaxy
 	.post_item_courses .post_info_wrap .post_button + .post_button {
 		margin-left:0.4em;
 	}
-	
+
 	/* Widgets */
 	.widget_area .sc_tabs.sc_tabs_style_2 .sc_tabs_titles li + li {
 		margin-left:0.4em;
@@ -497,7 +497,7 @@ Samsung Galaxy
 	.widget_area .sc_tabs.sc_tabs_style_2 .sc_tabs_titles li a {
 		padding: 2px 0.5em;
 	}
-	
+
 	/* Woocommerce */
 	.woocommerce ul.products, .woocommerce-page ul.products {
 		margin-right:-20px;
@@ -603,17 +603,17 @@ Samsung Galaxy
 	h5 { font-size:1.1667em; }
 	h6 { font-size:1em; }
 	/* Body sizes */
-	.body_style_boxed .page_wrap {		width:680px; }
+	.body_style_boxed .page_wrap {		width:100%; }
 	.slider_boxed, .content_wrap, .content_container {	width:610px; }
 
 	/* Content and Sidebar */
 	.sidebar_show .content { width: 100%;  }
 	.sidebar { 				 width: 100%; }
-	
+
 	.article_style_boxed .sidebar {
 		margin-top:20px;
 	}
-	
+
 	.widget_area aside {
 		display: inline-block;
 		float:none !important;
@@ -640,7 +640,7 @@ Samsung Galaxy
 	}
 
 	.widget_area .widget_search .search_button {    right: 0.5em; top: 0.3em;}
-	
+
 	/* Fullwide or Fullscreen with sidebar */
 	.body_style_fullwide.sidebar_right .content, .body_style_fullscreen.sidebar_right .content { padding-right: 0; }
 	.body_style_fullwide.sidebar_right .sidebar, .body_style_fullscreen.sidebar_right .sidebar { margin-left: 0; }
@@ -736,7 +736,7 @@ Samsung Galaxy
 	.custom_columns .row:not(.columns_fluid) [class*="column-"] .sc_section_container .column-1_3{width: 50%;}
 	.custom_columns .row:not(.columns_fluid) [class*="column-"] .sc_section_container .column-1_3 figure{width: 50%;}
 	.custom_columns:not(.no_padding) [class*="column-"] + [class*="column-"] {margin-top: 30px;}
-	
+
 
 	.purchase_section .custom_columns [class*="column-"] + [class*="column-"] {margin-top: 10px;}
 
@@ -757,12 +757,12 @@ Samsung Galaxy
 	.page_top_wrap .breadcrumbs {
 		font-size:0.8333em;
 	}
-	
+
 	/* Post layouts */
 	.isotope_filters a {
 		font-size:0.8333em;
 	}
-	
+
 	/* Post parts */
 	.post_info {
 		font-size:0.8333em;
@@ -783,12 +783,12 @@ Samsung Galaxy
 	.post_item_courses .post_descr .post_price_value {
 		font-size:1.3333em;
 	}
-	
+
 	/* Footer */
 	.contacts_wrap .contacts_address {
 		font-size: 1em;
 	}
-	
+
 	/* Widgets */
 	.widget_area .post_item .post_info {
 		font-size:0.75em;
@@ -802,7 +802,7 @@ Samsung Galaxy
 	.widget_area .reviews_block .reviews_summary .reviews_criteria {
 		font-size:0.75em;
 	}
-	
+
 	/* Shortcodes */
 	input[type="submit"], input[type="button"], button, .sc_button {
 		padding: 0.7em 0.6em;
@@ -943,7 +943,7 @@ Samsung Galaxy
 	.gallery.gallery-columns-6 .gallery-item {	width: 33.3333% !important; }
 	.gallery.gallery-columns-5 .gallery-item {	width: 33.3333% !important; }
 	.gallery.gallery-columns-4 .gallery-item {	width: 33.3333% !important; }
-	
+
 
 	/* Menu area */
 	.admin-bar.top_panel_over .top_panel_wrap {	top:46px; }
@@ -975,7 +975,7 @@ Samsung Galaxy
 	.menu_user_wrap .menu_user_nav > li > ul {
 		top: 21px;
 	}
-	
+
 	.page_top_wrap .breadcrumbs {
 	}
 	.page_top_wrap.page_top_title .breadcrumbs {
@@ -1010,7 +1010,7 @@ Samsung Galaxy
 	.ih-item.square.effect1.bottom_to_top .info .post_title {
 		margin-top:35% !important;
 	}
-	
+
 	.post_item_courses .post_category {
 		max-height:1.2em;
 		overflow:hidden;
@@ -1028,7 +1028,7 @@ Samsung Galaxy
 	.ih-item.square.effect_dir .info .post_title {
 		margin-top:4% !important;
 	}
-	
+
 	.body_style_fullscreen.layout_single-courses .post_featured .post_icon {
 		font-size: 2.5em;
 		margin-top:0.33em;
@@ -1049,10 +1049,10 @@ Samsung Galaxy
 		/* padding-left:0; */
 		margin-left:0;
 	}
-	
+
 	/* Reviews block */
 	.reviews_block {
-		width:100%; 
+		width:100%;
 	}
 	.content .reviews_block {
 		float:none;
@@ -1073,7 +1073,7 @@ Samsung Galaxy
 		padding: 2px 0.5em;
 	}
 
-	.sidebar.widget_area .widget_calendar table {width: 75%;}	
+	.sidebar.widget_area .widget_calendar table {width: 75%;}
 
 	/* Shortcodes */
 	.sc_accordion.sc_accordion_style_2 .sc_accordion_item .sc_accordion_title .sc_accordion_icon {
@@ -1126,7 +1126,7 @@ Samsung Galaxy
 	.tp-caption.adviserbigblack {top: 35px !important;}
 	.tp-caption.adviserminigrey {font-size: 12px !important;line-height: 11px !important; top: 120px !important;}
 	.tp-caption.adviserbtn {top: 170px !important;}
-	.tp-caption.adviserbtn .sc_button {font-size: 12px !important; }	
+	.tp-caption.adviserbtn .sc_button {font-size: 12px !important; }
 
 	.sc_section .sc_section_overlay {padding: 0 1em;}
 	.sc_columns .sc_column_item_inner > .sc_section {padding: 0;}
@@ -1233,17 +1233,17 @@ Very common low res
 
 
 	/* Body sizes */
-	.body_style_boxed .page_wrap {		width:300px; }
+	.body_style_boxed .page_wrap {		width:100%; }
 	.slider_boxed, .content_wrap, .content_container {	width:280px; }
 
 	/* Content and Sidebar */
 	.sidebar_show .content { width: 100%; float: none; }
 	.sidebar { 				 width: 100%; float:none; }
-	
+
 	.article_style_boxed .sidebar {
 		margin-top:10px;
 	}
-	
+
 	.widget_area aside {
 		display: block;
 		float:none;
@@ -1255,7 +1255,7 @@ Very common low res
 		border-top:1px solid #f4f7f9;
 		margin-top:10px;
 	}
-	
+
 	.sc_section.with_padding {
 	    padding-left: 10px;
 	    padding-right: 10px;
@@ -1377,12 +1377,12 @@ Very common low res
 	.page_top_wrap .breadcrumbs {
 		font-size:0.8333em;
 	}
-	
+
 	/* Post layouts */
 	.isotope_filters a {
 		font-size:0.8333em;
 	}
-	
+
 	/* Post parts */
 	.post_info {
 		font-size:0.8333em;
@@ -1393,7 +1393,7 @@ Very common low res
 	.post_rating .reviews_star {
 		font-size:1em;
 	}
-	
+
 	.post_item_courses .post_category {
 		font-size:1em;
 		margin:0 0 0.4em;
@@ -1404,18 +1404,18 @@ Very common low res
 	.post_item_courses .post_descr .post_price_value {
 		font-size:1.3333em;
 	}
-	
+
 	.layout_single-courses .content .post_info:not(.post_info_bottom) {
 		font-size: 1.25em;
 	}
-	
+
 	/* Footer */
 	.contacts_wrap .contacts_address {
 		font-size: 1em;
 	}
 
 	.footer_wrap .widget > .widget_title {margin-top: 30px;}
-	
+
 	/* Widgets */
 	.widget_area .post_item .post_info {
 		font-size:0.75em;
@@ -1612,7 +1612,7 @@ Very common low res
 	.gallery.gallery-columns-5 .gallery-item {	width: 50% !important; }
 	.gallery.gallery-columns-4 .gallery-item {	width: 50% !important; }
 	.gallery.gallery-columns-3 .gallery-item {	width: 50% !important; }
-	
+
 	/* Menu area */
 	.admin-bar.top_panel_over .top_panel_wrap {	top:46px; }
 	.admin-bar.top_panel_fixed .top_panel_wrap { top:46px; }
@@ -1635,7 +1635,7 @@ Very common low res
 	.menu_user_wrap .menu_user_nav > li.menu_user_bookmarks {
 		margin-left:0.5em;
 	}
-	
+
 	.menu_main_wrap .logo {
 		max-width:50%;
 		margin-top:1.5em;
@@ -1689,7 +1689,7 @@ Very common low res
 	.isotope_wrap .isotope_item {
 		width:100% !important;
 	}
-	
+
 	.body_style_fullscreen.layout_single-courses .post_featured .post_icon {
 		font-size: 2.5em;
 		margin-top:0.33em;
@@ -1710,17 +1710,17 @@ Very common low res
 		/* padding-left:0; */
 		margin-left:0;
 	}
-	
+
 	/* Reviews block */
 	.reviews_block {
-		width:100%; 
+		width:100%;
 	}
 	.content .reviews_block {
 		float:none;
 		margin-left:0;
 	}
-	
-	
+
+
 	/* Widgets */
 	td, th {
 		padding:2px;
@@ -1734,7 +1734,7 @@ Very common low res
 	.widget_area .sc_tabs.sc_tabs_style_2 .sc_tabs_titles li a {
 		padding: 2px 0.5em;
 	}
-	
+
 	/* Shortcodes */
 	.sc_accordion.sc_accordion_style_2 .sc_accordion_item .sc_accordion_title .sc_accordion_icon {
 		border-width: 1px;
