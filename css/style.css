@@ -2177,7 +2177,7 @@ header .content_wrap {
   margin-top: 2.9em;
   margin-bottom: 0;
   width: 100%;
-  background-color: #30AD6A;
+  background-color: #E8EFE0;
   line-height: 0;
 }
 .main-menu_wrap_bg {
@@ -2264,7 +2264,7 @@ header .content_wrap {
   display: block;
   padding: 0 0.7em 0 1em;
   line-height: 5em;
-  color: #fff;
+  color: #00853E;
   height: 100%;
   overflow: hidden;
   position: relative;
@@ -2579,6 +2579,7 @@ header .content_wrap {
   height: 1.3em;
   line-height: 1.3em;
   margin: 0.5em 0.5em 0 0;
+  color: #00853E;
 }
 .menu_main_wrap .menu_main_nav_area .menu_main_responsive li.menu-item-has-children.opened:after {
   content: '\e835';
@@ -2601,7 +2602,7 @@ header .content_wrap {
   color: #ffffff;
 }
 .menu_main_wrap .menu_main_nav_area .menu_main_responsive li, .menu_main_wrap .menu_main_nav_area .menu_main_responsive a {
-  color: #ffffff;
+  color: #00853E;
 }
 
 /* Search field */
@@ -9849,7 +9850,7 @@ blockquote p {
 .menu_main_wrap .menu_main_nav_area li.menu-item-has-children:after {
   content: '\e82d';
   font-family: fontello;
-  color: #ffffff;
+  color: #00853E;
   font-size: 0.8em;
   position: absolute;
   right: 0;
