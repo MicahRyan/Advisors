@@ -2002,7 +2002,7 @@ header .content_wrap {
 
 .top_panel_style_light.top_panel_opacity_solid .page_top_wrap {
   background-color: #ffffff;
-  background: url("../images/1392x231.png");
+  background: url("http://positivelyold.com/wp-content/uploads/2010/11/iStock_000011085114Medium.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 .top_panel_style_light .top_panel_opacity_solid .top_panel_wrap {
@@ -3718,7 +3718,11 @@ blockquote > a, blockquote > p > a, blockquote cite {
 
 /* 7.7 Paginations
 -------------------------------------------------------------- */
-
+/* Header Image */
+.overlay-background {
+  background: black;
+  opacity: .7;
+}
 
 /* Blog pagination */
 
