@@ -304,7 +304,7 @@ body {
   color: #5b5f62;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: Spinnaker, serif;
+  font-family: "museo-sans",sans-serif;
   color: #5b5f62;
 }
 h1 {
@@ -4735,7 +4735,7 @@ blockquote > a, blockquote > p > a, blockquote cite {
   margin: 0 auto;
 }
 .post_item_404 .page_title {
-  font-family: Spinnaker, serif;
+  font-family: "museo-sans",sans-serif;
   font-size: 16em;
   color: #f4f7fa;
   margin-top: 0.12em;
@@ -7087,7 +7087,7 @@ input[type="submit"]:hover, input[type="button"]:hover, button:hover, .sc_button
   overflow: hidden;
   color: #fff;
   font-size: 2em;
-  font-family: Spinnaker, serif;
+  font-family: "museo-sans",sans-serif;
   font-weight: 700;
 }
 .sc_dropcaps.sc_dropcaps_style_1 .sc_dropcaps_item {
@@ -7840,7 +7840,7 @@ ul.sc_list_style_iconed {
   height: auto;
 }
 .sc_price_block .sc_price_block_money .sc_price_money, .sc_price_block .sc_price_block_money .sc_price_currency {
-  font-family: Spinnaker, serif;
+  font-family: "museo-sans",sans-serif;
   font-size: 42px;
   font-weight: 400;
 }
@@ -8328,7 +8328,7 @@ ul.sc_list_style_iconed {
 
 .sc_skills_pie_2 .sc_skills_item {
   /*color: #052f43;*/
-  font-family: Spinnaker, serif;
+  font-family: "museo-sans",sans-serif;
   margin: 0 15px;
   position: relative;
 }
@@ -9682,7 +9682,7 @@ blockquote {
 }
 blockquote p {
   font-size: 1.786em;
-  font-family: Spinnaker, serif;
+  font-family: "museo-sans",sans-serif;
   line-height: 1.48em;
 }
 .sc_quote.no_margin {
@@ -9812,7 +9812,7 @@ blockquote p {
   margin-top: 2.7em;
 }
 .logo .logo_text {
-  font-family: Spinnaker, serif;
+  font-family: "museo-sans",sans-serif;
   font-size: 3.333em;
   font-weight: 700;
   vertical-align: top;
@@ -10251,7 +10251,7 @@ svg:not(:root), .sc_skills_arc {
   border-color: #dadad8 !important;
 }
 .vc_pie_chart .vc_pie_chart_value {
-  font-family: Spinnaker, serif;
+  font-family: "museo-sans",sans-serif;
   font-size: 2.666em;
 }
 .vc_pie_chart h4 {
@@ -10441,7 +10441,7 @@ h2.sc_contact_form_title {
 }
 .history_service .wpb_wrapper p {
   text-transform: uppercase;
-  font-family: Spinnaker, serif;
+  font-family: "museo-sans",sans-serif;
   font-size: 1.066em;
   color: #e8eee0;
   color: #e8eee0;
