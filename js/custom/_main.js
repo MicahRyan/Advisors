@@ -15,7 +15,7 @@ var cp_calculatedfieldsf_fbuilder_config_2 = {"obj":"{\"pub\":true,\"identifier\
 
 function globals_init(){
 
-	AXIOMTHEMES_GLOBALS["strings"] = {
+	Green Hill Income PlanningTHEMES_GLOBALS["strings"] = {
 		bookmark_add: 		"Add the bookmark",
 		bookmark_added:		"Current page has been successfully added to the bookmarks. You can see it in the right panel on the tab \'Bookmarks\'",
 		bookmark_del: 		"Delete this bookmark",
@@ -59,49 +59,49 @@ function globals_init(){
 		editor_caption_close:	"Close"
 	};
 
-	AXIOMTHEMES_GLOBALS['ajax_url']			= '#';
-	AXIOMTHEMES_GLOBALS['ajax_nonce']		= 'a01225268b';
-	AXIOMTHEMES_GLOBALS['ajax_nonce_editor'] = 'fa58d3aca8';
-	AXIOMTHEMES_GLOBALS['site_url']			= '/';
-	AXIOMTHEMES_GLOBALS['vc_edit_mode']		= false;
-	AXIOMTHEMES_GLOBALS['theme_font']		= '';
-	AXIOMTHEMES_GLOBALS['theme_skin']		= 'adviser';
-	AXIOMTHEMES_GLOBALS['theme_skin_bg']	= '';
-	AXIOMTHEMES_GLOBALS['slider_height']	= 520;
-	AXIOMTHEMES_GLOBALS['system_message']	= {message: '',status: '',header: ''};
-	AXIOMTHEMES_GLOBALS['user_logged_in']	= false;
-	AXIOMTHEMES_GLOBALS['toc_menu']		= 'float';
-	AXIOMTHEMES_GLOBALS['toc_menu_home']	= true;
-	AXIOMTHEMES_GLOBALS['toc_menu_top']	= true;
-	AXIOMTHEMES_GLOBALS['menu_fixed']		= true;
-	AXIOMTHEMES_GLOBALS['menu_relayout']	= 960;
-	AXIOMTHEMES_GLOBALS['menu_responsive']	= 800;
-	AXIOMTHEMES_GLOBALS['menu_slider']     = true;
-	AXIOMTHEMES_GLOBALS['demo_time']		= 0;
-	AXIOMTHEMES_GLOBALS['media_elements_enabled'] = true;
-	AXIOMTHEMES_GLOBALS['ajax_search_enabled'] 	= true;
-	AXIOMTHEMES_GLOBALS['ajax_search_min_length']	= 3;
-	AXIOMTHEMES_GLOBALS['ajax_search_delay']		= 200;
-	AXIOMTHEMES_GLOBALS['css_animation']      = true;
-	AXIOMTHEMES_GLOBALS['menu_animation_in']  = 'fadeIn';
-	AXIOMTHEMES_GLOBALS['menu_animation_out'] = 'fadeOutDown';
-	AXIOMTHEMES_GLOBALS['popup_engine']	= 'magnific';
-	AXIOMTHEMES_GLOBALS['popup_gallery']	= true;
-	AXIOMTHEMES_GLOBALS['email_mask']		= '^([a-zA-Z0-9_\-]+\.)*[a-zA-Z0-9_\-]+@[a-z0-9_\-]+(\.[a-z0-9_\-]+)*\.[a-z]{2,6}$';
-	AXIOMTHEMES_GLOBALS['contacts_maxlength']	= 1000;
-	AXIOMTHEMES_GLOBALS['comments_maxlength']	= 1000;
-	AXIOMTHEMES_GLOBALS['remember_visitors_settings']	= false;
-	AXIOMTHEMES_GLOBALS['admin_mode']			= false;
-	AXIOMTHEMES_GLOBALS['isotope_resize_delta']	= 0.3;
-	AXIOMTHEMES_GLOBALS['error_message_box']	= null;
-	AXIOMTHEMES_GLOBALS['viewmore_busy']		= false;
-	AXIOMTHEMES_GLOBALS['video_resize_inited']	= false;
-	AXIOMTHEMES_GLOBALS['top_panel_height']		= 0;
+	Green Hill Income PlanningTHEMES_GLOBALS['ajax_url']			= '#';
+	Green Hill Income PlanningTHEMES_GLOBALS['ajax_nonce']		= 'a01225268b';
+	Green Hill Income PlanningTHEMES_GLOBALS['ajax_nonce_editor'] = 'fa58d3aca8';
+	Green Hill Income PlanningTHEMES_GLOBALS['site_url']			= '/';
+	Green Hill Income PlanningTHEMES_GLOBALS['vc_edit_mode']		= false;
+	Green Hill Income PlanningTHEMES_GLOBALS['theme_font']		= '';
+	Green Hill Income PlanningTHEMES_GLOBALS['theme_skin']		= 'adviser';
+	Green Hill Income PlanningTHEMES_GLOBALS['theme_skin_bg']	= '';
+	Green Hill Income PlanningTHEMES_GLOBALS['slider_height']	= 520;
+	Green Hill Income PlanningTHEMES_GLOBALS['system_message']	= {message: '',status: '',header: ''};
+	Green Hill Income PlanningTHEMES_GLOBALS['user_logged_in']	= false;
+	Green Hill Income PlanningTHEMES_GLOBALS['toc_menu']		= 'float';
+	Green Hill Income PlanningTHEMES_GLOBALS['toc_menu_home']	= true;
+	Green Hill Income PlanningTHEMES_GLOBALS['toc_menu_top']	= true;
+	Green Hill Income PlanningTHEMES_GLOBALS['menu_fixed']		= true;
+	Green Hill Income PlanningTHEMES_GLOBALS['menu_relayout']	= 960;
+	Green Hill Income PlanningTHEMES_GLOBALS['menu_responsive']	= 800;
+	Green Hill Income PlanningTHEMES_GLOBALS['menu_slider']     = true;
+	Green Hill Income PlanningTHEMES_GLOBALS['demo_time']		= 0;
+	Green Hill Income PlanningTHEMES_GLOBALS['media_elements_enabled'] = true;
+	Green Hill Income PlanningTHEMES_GLOBALS['ajax_search_enabled'] 	= true;
+	Green Hill Income PlanningTHEMES_GLOBALS['ajax_search_min_length']	= 3;
+	Green Hill Income PlanningTHEMES_GLOBALS['ajax_search_delay']		= 200;
+	Green Hill Income PlanningTHEMES_GLOBALS['css_animation']      = true;
+	Green Hill Income PlanningTHEMES_GLOBALS['menu_animation_in']  = 'fadeIn';
+	Green Hill Income PlanningTHEMES_GLOBALS['menu_animation_out'] = 'fadeOutDown';
+	Green Hill Income PlanningTHEMES_GLOBALS['popup_engine']	= 'magnific';
+	Green Hill Income PlanningTHEMES_GLOBALS['popup_gallery']	= true;
+	Green Hill Income PlanningTHEMES_GLOBALS['email_mask']		= '^([a-zA-Z0-9_\-]+\.)*[a-zA-Z0-9_\-]+@[a-z0-9_\-]+(\.[a-z0-9_\-]+)*\.[a-z]{2,6}$';
+	Green Hill Income PlanningTHEMES_GLOBALS['contacts_maxlength']	= 1000;
+	Green Hill Income PlanningTHEMES_GLOBALS['comments_maxlength']	= 1000;
+	Green Hill Income PlanningTHEMES_GLOBALS['remember_visitors_settings']	= false;
+	Green Hill Income PlanningTHEMES_GLOBALS['admin_mode']			= false;
+	Green Hill Income PlanningTHEMES_GLOBALS['isotope_resize_delta']	= 0.3;
+	Green Hill Income PlanningTHEMES_GLOBALS['error_message_box']	= null;
+	Green Hill Income PlanningTHEMES_GLOBALS['viewmore_busy']		= false;
+	Green Hill Income PlanningTHEMES_GLOBALS['video_resize_inited']	= false;
+	Green Hill Income PlanningTHEMES_GLOBALS['top_panel_height']		= 0;
 
-	if (AXIOMTHEMES_GLOBALS['theme_font']=='') AXIOMTHEMES_GLOBALS['theme_font'] = 'Roboto';
-	AXIOMTHEMES_GLOBALS['link_color'] = '#493834';
-	AXIOMTHEMES_GLOBALS['menu_color'] = '#592131';
-	AXIOMTHEMES_GLOBALS['user_color'] = '#f1ad48';
+	if (Green Hill Income PlanningTHEMES_GLOBALS['theme_font']=='') Green Hill Income PlanningTHEMES_GLOBALS['theme_font'] = 'Roboto';
+	Green Hill Income PlanningTHEMES_GLOBALS['link_color'] = '#493834';
+	Green Hill Income PlanningTHEMES_GLOBALS['menu_color'] = '#592131';
+	Green Hill Income PlanningTHEMES_GLOBALS['user_color'] = '#f1ad48';
 
 }
 

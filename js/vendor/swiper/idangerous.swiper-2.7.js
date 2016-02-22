@@ -143,7 +143,7 @@ var Swiper = function (selector, params) {
         keyboardControl: false,
         mousewheelControl : false,
         mousewheelControlForceToAxis : false,
-        mousewheelAccelerator: 4,		// Accelerator for FireFox 4+ by Axiomthemes
+        mousewheelAccelerator: 4,		// Accelerator for FireFox 4+ by Green Hill Income Planningthemes
         useCSS3Transforms : true,
         // Autoplay
         autoplay: false,
@@ -1170,7 +1170,7 @@ var Swiper = function (selector, params) {
             else {
                 delta = Math.abs(e.deltaX) > Math.abs(e.deltaY) ? - e.deltaX : - e.deltaY;
             }
-            // Accelerate mouse wheel by Axiomthemes
+            // Accelerate mouse wheel by Green Hill Income Planningthemes
             delta *= params.mousewheelAccelerator;
         }
 
