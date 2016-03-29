@@ -5,10 +5,10 @@
 
 /*
 Theme Name: Adviser HTML
-Theme URI: http://adviser-html.Green Hill Income Planningthemes.com/
+Theme URI: http://adviser-html.axiomthemes.com/
 Description: Adviser - Multipurpose and Multiskin Responsive theme
-Author: Green Hill Income PlanningThemes
-Author URI: http://themeforest.net/user/Green Hill Income Planningthemes/portfolio
+Author: AxiomThemes
+Author URI: http://themeforest.net/user/axiomthemes/portfolio
 Version: 1.0
 License: GNU General Public License
 License URI: license.txt
@@ -2166,7 +2166,7 @@ header .content_wrap {
   margin-bottom: 0;
 }
 .menu_main_wrap .menu_main_nav > li.advisor_black.menu-item {
-  background-color: #81bf37;
+  background-color: #78B72E;
   border-bottom: 2px solid #00853e;
 }
 .menu_left .menu_main_wrap .menu_main_nav_area, .menu_center .menu_main_wrap .menu_main_nav_area {
@@ -2300,11 +2300,11 @@ header .content_wrap {
   background-color: #00853e;
 }
 .menu_main_wrap .menu_main_nav > li.advisor_black.menu-item.current-menu-parent, .menu_main_wrap .menu_main_nav > li.current-menu-parent, .menu_main_wrap .menu_main_nav > li.current-menu-item {
-  background-color: #81bf37;
+  background-color: #78B72E;
 }
 .menu_main_wrap .menu_main_nav ul li:last-of-type {}
 .menu_main_wrap .menu_main_nav > li.blob_over:hover, .menu_main_wrap .menu_main_nav > li.blob_over.sfHover {
-  background-color: #81bf37;
+  background-color: #78B72E;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   -ms-transition: 0.5s;
@@ -11137,7 +11137,7 @@ blockquote.sc_quote_style_1 > p > a {
 .sc_contact_form .sc_contact_form_button button {
   font-size: 1em;
 }
-.Green Hill Income Planningthemes_button {
+.axiomthemes_button {
   height: 3.5em;
 }
 
@@ -11304,7 +11304,7 @@ select {
 
 /* Popups with messages */
 
-#Green Hill Income Planningthemes_modal_bg {
+#axiomthemes_modal_bg {
   position: fixed;
   left: 0;
   top: 0;
@@ -11314,7 +11314,7 @@ select {
   display: none;
   z-index: 100000;
 }
-.Green Hill Income Planningthemes_message {
+.axiomthemes_message {
   display: block;
   position: absolute;
   max-width: 800px;
@@ -11332,7 +11332,7 @@ select {
   line-height: 140%;
   z-index: 100001
 }
-.Green Hill Income Planningthemes_message .Green Hill Income Planningthemes_message_close {
+.axiomthemes_message .axiomthemes_message_close {
   display: block;
   position: absolute;
   width: 16px;
@@ -11346,7 +11346,7 @@ select {
   cursor: pointer;
   color: #4c4c4c;
 }
-.Green Hill Income Planningthemes_message .Green Hill Income Planningthemes_message_icon {
+.axiomthemes_message .axiomthemes_message_icon {
   float: left;
   display: block;
   width: 35px;
@@ -11360,92 +11360,92 @@ select {
   font-weight: bold;
   color: #c9c9c9;
 }
-.Green Hill Income Planningthemes_message .Green Hill Income Planningthemes_message_icon:before {
+.axiomthemes_message .axiomthemes_message_icon:before {
   padding: 0;
   margin: 0;
 }
-.Green Hill Income Planningthemes_message .Green Hill Income Planningthemes_message_header {
+.axiomthemes_message .axiomthemes_message_header {
   color: #4c4c4c;
   padding: 0;
   font-size: 18px;
   font-weight: bold;
 }
-.Green Hill Income Planningthemes_message:not(.Green Hill Income Planningthemes_message_dialog) .Green Hill Income Planningthemes_message_body {
+.axiomthemes_message:not(.axiomthemes_message_dialog) .axiomthemes_message_body {
   padding: 12px 0 0 63px;
 }
 
 /* Warning popup */
 
-.Green Hill Income Planningthemes_message_warning {
+.axiomthemes_message_warning {
   border-color: #d7a9b1;
   background-color: #ffcdde;
   color: #a63a4b;
 }
-.Green Hill Income Planningthemes_message_warning .Green Hill Income Planningthemes_message_close {
+.axiomthemes_message_warning .axiomthemes_message_close {
   color: #a63a4b;
 }
-.Green Hill Income Planningthemes_message_warning .Green Hill Income Planningthemes_message_icon {
+.axiomthemes_message_warning .axiomthemes_message_icon {
   border-color: #a63a4b;
   color: #a63a4b;
 }
-.Green Hill Income Planningthemes_message_warning .Green Hill Income Planningthemes_message_icon {
+.axiomthemes_message_warning .axiomthemes_message_icon {
   line-height: 34px;
 }
-.Green Hill Income Planningthemes_message_warning .Green Hill Income Planningthemes_message_header {
+.axiomthemes_message_warning .axiomthemes_message_header {
   color: #a63a4b;
 }
 
 /* Success popup */
 
-.Green Hill Income Planningthemes_message_success {
+.axiomthemes_message_success {
   border-color: #b3e7a8;
   background-color: #d8ffd0;
   color: #517d48;
 }
-.Green Hill Income Planningthemes_message_success .Green Hill Income Planningthemes_message_close {
+.axiomthemes_message_success .axiomthemes_message_close {
   color: #517d48;
 }
-.Green Hill Income Planningthemes_message_success .Green Hill Income Planningthemes_message_icon {
+.axiomthemes_message_success .axiomthemes_message_icon {
   border-color: #517d48;
   color: #517d48;
 }
-.Green Hill Income Planningthemes_message_success .Green Hill Income Planningthemes_message_icon {
+.axiomthemes_message_success .axiomthemes_message_icon {
   line-height: 34px;
 }
-.Green Hill Income Planningthemes_message_success .Green Hill Income Planningthemes_message_header {
+.axiomthemes_message_success .axiomthemes_message_header {
   color: #517d48;
 }
 
 /* Info popup */
 
-.Green Hill Income Planningthemes_message_info {
+.axiomthemes_message_info {
   border-color: #9ecade;
   background-color: #ebf7fe;
   color: #4cb2e1;
 }
-.Green Hill Income Planningthemes_message_info .Green Hill Income Planningthemes_message_close {
+.axiomthemes_message_info .axiomthemes_message_close {
   color: #4cb2e1;
 }
-.Green Hill Income Planningthemes_message_info .Green Hill Income Planningthemes_message_icon {
+.axiomthemes_message_info .axiomthemes_message_icon {
   border-color: #4cb2e1;
   color: #4cb2e1;
 }
-.Green Hill Income Planningthemes_message_info .Green Hill Income Planningthemes_message_icon {
+.axiomthemes_message_info .axiomthemes_message_icon {
   line-height: 34px;
 }
-.Green Hill Income Planningthemes_message_info .Green Hill Income Planningthemes_message_header {
+.axiomthemes_message_info .axiomthemes_message_header {
   color: #4cb2e1;
 }
 
 /* Dialog popup */
 
-.Green Hill Income Planningthemes_message_dialog .Green Hill Income Planningthemes_message_icon {
+.axiomthemes_message_dialog .axiomthemes_message_icon {
   line-height: 36px;
 }
-.Green Hill Income Planningthemes_message_dialog .Green Hill Income Planningthemes_message_buttons {
+.axiomthemes_message_dialog .axiomthemes_message_buttons {
   margin-top: 20px;
 }
-.Green Hill Income Planningthemes_message_dialog .Green Hill Income Planningthemes_message_button {
+.axiomthemes_message_dialog .axiomthemes_message_button {
   display: inline-block;
   padding: 0 12px;
   margin-right: 6px;
@@ -11459,6 +11459,6 @@ select {
   text-align: center;
   font-weight: bold;
 }
-.Green Hill Income Planningthemes_message_dialog .Green Hill Income Planningthemes_message_button:hover {
+.axiomthemes_message_dialog .axiomthemes_message_button:hover {
   background-color: #4cb2e1;
 }

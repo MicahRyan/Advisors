@@ -1,10 +1,10 @@
-function Green Hill Income Planningthemes_googlemap_init(dom_obj, coords) {
+function axiomthemes_googlemap_init(dom_obj, coords) {
 	"use strict";
-	if (typeof Green Hill Income PlanningTHEMES_GLOBALS['googlemap_init_obj'] == 'undefined') Green Hill Income Planningthemes_googlemap_init_styles();
+	if (typeof AXIOMTHEMES_GLOBALS['googlemap_init_obj'] == 'undefined') axiomthemes_googlemap_init_styles();
 
 	try {
 		var id = dom_obj.id;
-		Green Hill Income PlanningTHEMES_GLOBALS['googlemap_init_obj'][id] = {
+		AXIOMTHEMES_GLOBALS['googlemap_init_obj'][id] = {
 			dom: dom_obj,
 			point: coords.point,
 			description: coords.description,
@@ -20,7 +20,7 @@ function Green Hill Income Planningthemes_googlemap_init(dom_obj, coords) {
 				mapTypeControl: false,
 				streetViewControl: false,
 				overviewMapControl: false,
-				styles: Green Hill Income PlanningTHEMES_GLOBALS['googlemap_styles'][coords.style ? coords.style : 'default'],
+				styles: AXIOMTHEMES_GLOBALS['googlemap_styles'][coords.style ? coords.style : 'default'],
 				mapTypeId: google.maps.MapTypeId.ROADMAP
 			}
 		};
@@ -35,57 +35,57 @@ function Green Hill Income Planningthemes_googlemap_init(dom_obj, coords) {
                         coords.latlng = results[0].geometry.location.toString();
                         coords.latlng = coords.latlng.replace(/\(\)/g, '');
                     }
-					Green Hill Income Planningthemes_googlemap_create(id, coords.latlng);
+					axiomthemes_googlemap_create(id, coords.latlng);
 				} else
-					alert(Green Hill Income PlanningTHEMES_GLOBALS['strings']['geocode_error'] + ' ' + status);
+					alert(AXIOMTHEMES_GLOBALS['strings']['geocode_error'] + ' ' + status);
 			});
 		} else
-			Green Hill Income Planningthemes_googlemap_create(id, coords.latlng);
+			axiomthemes_googlemap_create(id, coords.latlng);
 
 	} catch (e) {
-		alert(Green Hill Income PlanningTHEMES_GLOBALS['strings']['googlemap_not_avail']);
+		alert(AXIOMTHEMES_GLOBALS['strings']['googlemap_not_avail']);
 	};
 }
 
-function Green Hill Income Planningthemes_googlemap_create(id) {
+function axiomthemes_googlemap_create(id) {
 	"use strict";
 	var latlng = arguments[1] ? arguments[1] : '';
 	if (latlng) {
 		var latlngStr = latlng.split(',');
-		Green Hill Income PlanningTHEMES_GLOBALS['googlemap_init_obj'][id].opt.center = new google.maps.LatLng(latlngStr[0], latlngStr[1]);
+		AXIOMTHEMES_GLOBALS['googlemap_init_obj'][id].opt.center = new google.maps.LatLng(latlngStr[0], latlngStr[1]);
 	}
-	Green Hill Income PlanningTHEMES_GLOBALS['googlemap_init_obj'][id].map = new google.maps.Map(Green Hill Income PlanningTHEMES_GLOBALS['googlemap_init_obj'][id].dom, Green Hill Income PlanningTHEMES_GLOBALS['googlemap_init_obj'][id].opt);
-	//Green Hill Income PlanningTHEMES_GLOBALS['googlemap_init_obj'][id].map.setCenter(Green Hill Income PlanningTHEMES_GLOBALS['googlemap_init_obj'][id].opt.center);
+	AXIOMTHEMES_GLOBALS['googlemap_init_obj'][id].map = new google.maps.Map(AXIOMTHEMES_GLOBALS['googlemap_init_obj'][id].dom, AXIOMTHEMES_GLOBALS['googlemap_init_obj'][id].opt);
+	//AXIOMTHEMES_GLOBALS['googlemap_init_obj'][id].map.setCenter(AXIOMTHEMES_GLOBALS['googlemap_init_obj'][id].opt.center);
 	var markerInit = {
-		map: Green Hill Income PlanningTHEMES_GLOBALS['googlemap_init_obj'][id].map,
-		position: Green Hill Income PlanningTHEMES_GLOBALS['googlemap_init_obj'][id].opt.center	//Green Hill Income PlanningTHEMES_GLOBALS['googlemap_init_obj'][id].map.getCenter()
+		map: AXIOMTHEMES_GLOBALS['googlemap_init_obj'][id].map,
+		position: AXIOMTHEMES_GLOBALS['googlemap_init_obj'][id].opt.center	//AXIOMTHEMES_GLOBALS['googlemap_init_obj'][id].map.getCenter()
 	};
-	if (Green Hill Income PlanningTHEMES_GLOBALS['googlemap_init_obj'][id].point) markerInit.icon = Green Hill Income PlanningTHEMES_GLOBALS['googlemap_init_obj'][id].point;
-	if (Green Hill Income PlanningTHEMES_GLOBALS['googlemap_init_obj'][id].title) markerInit.title = Green Hill Income PlanningTHEMES_GLOBALS['googlemap_init_obj'][id].title;
+	if (AXIOMTHEMES_GLOBALS['googlemap_init_obj'][id].point) markerInit.icon = AXIOMTHEMES_GLOBALS['googlemap_init_obj'][id].point;
+	if (AXIOMTHEMES_GLOBALS['googlemap_init_obj'][id].title) markerInit.title = AXIOMTHEMES_GLOBALS['googlemap_init_obj'][id].title;
 	var marker = new google.maps.Marker(markerInit);
 	var infowindow = new google.maps.InfoWindow({
-		content: Green Hill Income PlanningTHEMES_GLOBALS['googlemap_init_obj'][id].description
+		content: AXIOMTHEMES_GLOBALS['googlemap_init_obj'][id].description
 	});
 	google.maps.event.addListener(marker, "click", function() {
-		infowindow.open(Green Hill Income PlanningTHEMES_GLOBALS['googlemap_init_obj'][id].map, marker);
+		infowindow.open(AXIOMTHEMES_GLOBALS['googlemap_init_obj'][id].map, marker);
 	});
 	jQuery(window).resize(function() {
-		if (Green Hill Income PlanningTHEMES_GLOBALS['googlemap_init_obj'][id].map)
-			Green Hill Income PlanningTHEMES_GLOBALS['googlemap_init_obj'][id].map.setCenter(Green Hill Income PlanningTHEMES_GLOBALS['googlemap_init_obj'][id].opt.center);
+		if (AXIOMTHEMES_GLOBALS['googlemap_init_obj'][id].map)
+			AXIOMTHEMES_GLOBALS['googlemap_init_obj'][id].map.setCenter(AXIOMTHEMES_GLOBALS['googlemap_init_obj'][id].opt.center);
 	});
 }
 
-function Green Hill Income Planningthemes_googlemap_refresh() {
+function axiomthemes_googlemap_refresh() {
 	"use strict";
-	for (id in Green Hill Income PlanningTHEMES_GLOBALS['googlemap_init_obj']) {
-		Green Hill Income Planningthemes_googlemap_create(id);
+	for (id in AXIOMTHEMES_GLOBALS['googlemap_init_obj']) {
+		axiomthemes_googlemap_create(id);
 	}
 }
 
-function Green Hill Income Planningthemes_googlemap_init_styles() {
+function axiomthemes_googlemap_init_styles() {
 	// Init Google map
-	Green Hill Income PlanningTHEMES_GLOBALS['googlemap_init_obj'] = {};
-	Green Hill Income PlanningTHEMES_GLOBALS['googlemap_styles'] = {
+	AXIOMTHEMES_GLOBALS['googlemap_init_obj'] = {};
+	AXIOMTHEMES_GLOBALS['googlemap_styles'] = {
 		'default': [],
 		'invert': [ { "stylers": [ { "invert_lightness": true }, { "visibility": "on" } ] } ],
 		'dark': [{"featureType":"landscape","stylers":[{ "invert_lightness": true },{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]}],
